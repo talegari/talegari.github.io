@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on A minimal Hugo website</title>
+    <link>/</link>
+    <description>Recent content in Home on A minimal Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First test post</title>
+      <link>/post/2017/10/04/first-test-post/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017/10/04/first-test-post/</guid>
+      <description>Simple rpart model on iris library(&amp;quot;rpart&amp;quot;) library(&amp;quot;rpart.plot&amp;quot;) tree_model = rpart(Species ~., data = iris) summary(tree_model) ## Call: ## rpart(formula = Species ~ ., data = iris) ## n= 150 ## ## CP nsplit rel error xerror xstd ## 1 0.50 0 1.00 1.14 0.05230679 ## 2 0.44 1 0.50 0.62 0.06031031 ## 3 0.01 2 0.06 0.12 0.03322650 ## ## Variable importance ## Petal.Width Petal.Length Sepal.Length Sepal.Width ## 34 31 21 14 ## ## Node number 1: 150 observations, complexity param=0.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>TODO</description>
+    </item>
+    
+  </channel>
+</rss>
